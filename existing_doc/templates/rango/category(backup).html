@@ -60,18 +60,15 @@
 </div>
 
 <div class="hero-unit">
-    <div class="container-fluid">
-            <!-- <img src="http://www.goseolasvegas.com/wp-content/uploads/2012/11/Yahoo-Google-Bing-1.jpg" style="width: 180px" alt="Picture of Bing Logo" />  -->
-        <!-- <img src="C:\Users\financetemp\code\nohtakap\existing_doc\static\img\0e2362937_1375917638_classfinder.jpg" style="width: 180px" alt="Picture of Bing Logo" />  -->            
-            <img src="http://cityofgrace.s3.amazonaws.com/uploaded/c/0e2362937_1375917638_classfinder.jpg" style="width: 180px" alt="classfinder" />             
-        <!-- <p>Online Class Finder</p> -->
-        <p></p>
+<!--     <div class="container-fluid">
+            <img src="http://www.goseolasvegas.com/wp-content/uploads/2012/11/Yahoo-Google-Bing-1.jpg" style="width: 180px" alt="Picture of Bing Logo" />    
+        <p>Search for an Online Source</p>
         <form class="span8 form-search" id="search_form" method="post" action="/rango/category/{{ category_name_url }}/">
             {% csrf_token %}
             <input type="text" class="input-long search-query"  name="query" value="{{ category_name }}" id="query" />
             <button type="submit" class="btn btn-success" name="submit" value="Search">Search</button>
         </form>
-    </div>
+    </div> -->
 
     <div class="container-fluid">
         {% if result_list %}
